@@ -9,7 +9,6 @@ function App() {
         <h1 className="text-center text-3xl font-semibold">
           Internship Assessment - Harsh Sharma
         </h1>
-        <Home></Home>
         <div className="flex justify-center items-center mt-4">
           <p className="text-center m-2 mr-8 text-2xl">A -- 10</p>
           <p className="text-center m-2 mr-8 text-2xl">B -- 50</p>
@@ -17,6 +16,7 @@ function App() {
           <p className="text-center m-2 mr-8 text-2xl">D -- 5</p>
           <p className="text-center m-2 mr-8 text-2xl">E -- 20</p>
         </div>
+        <Home></Home>
       </div>
     </DndProvider>
   );
