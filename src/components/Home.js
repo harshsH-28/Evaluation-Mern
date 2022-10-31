@@ -126,7 +126,7 @@ function Home() {
 
   return (
     <>
-      <div className="border-2 border-black border-solid w-screen h-full my-10 mb-20 py-4 px-2">
+      <div className="border-2 border-black border-solid w-screen h-full my-10 mb-16 py-4 px-2">
         <div className="w-full flex justify-start items-center">
           {Operands.map((op) => {
             return <Box id={op.id} name={op.name} arrayName={true} />;
